@@ -1,0 +1,11 @@
+# Employee reports
+
+Небольшой скрипт для формирования отчётов по CSV-файлам с данными сотрудников.
+
+## Запуск
+
+```bash
+python3 main.py --files employees1.csv employees2.csv --report performance
+
+Тесты:
+pytest --cov=main
